@@ -9,7 +9,7 @@ This site contains the following notes:
 
 该网站包含以下笔记：
 
-- [Lec01：The Shell](Lec01：The%20Shell.md)
+- [Lec01：The Shell](Lec01-The%20Shell.md)
 - [Lec02：Shell 工具和脚本](Lec02：Shell%20工具和脚本.md)
 - [Lec03：编辑器（Vim）](Lec03：编辑器（Vim）.md)
 - [Lec04：数据整理](Lec04：数据整理.md)
