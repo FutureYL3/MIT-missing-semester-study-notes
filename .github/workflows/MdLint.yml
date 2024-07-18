@@ -1,0 +1,10 @@
+name: Lint Markdown
+
+on: [push, pull_request]
+
+jobs:
+  markdown-check:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Lint Markdown
+      uses: tomwhross/write-good-action@v1.6
