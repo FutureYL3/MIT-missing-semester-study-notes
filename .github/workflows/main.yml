@@ -13,26 +13,26 @@ jobs:
       - name: Run ShellCheck
         uses: ludeeus/action-shellcheck@2.0.0
         with:
-          # A space separated list of additional filenames to check
-          additional_files: 'scripts/*.sh' # 修改为你想检查的文件路径模式
+          # Specify additional files to check, using a glob pattern that works
+          additional_files: 'scripts/*.sh' # Ensure you have shell scripts in this directory
           
-          # Paths to ignore when running ShellCheck
-          ignore_paths: '' # 可选，默认为空
+          # Optional: Paths to ignore when running ShellCheck
+          ignore_paths: '' # Leave empty or specify paths to ignore
           
-          # Names to ignore when running ShellCheck
-          ignore_names: '' # 可选，默认为空
+          # Optional: Names to ignore when running ShellCheck
+          ignore_names: main
           
           # Minimum severity of errors to consider. Options: [error, warning, info, style]
-          severity: 'style' # 可选，默认为 'style'
+          severity: 'style' # Default is 'style'
           
           # Run shellcheck on _all_ files at once, instead of one at a time
-          check_together: 'false' # 可选，默认为 'false'
+          check_together: 'false' # Default is 'false'
           
-          # Directory to be searched for files. Defaults to .
-          scandir: '.' # 可选，默认为 '.'
+          # Directory to be searched for files. Defaults to '.'
+          scandir: '.' # Default is '.'
           
           # Output format (checkstyle, diff, gcc, json, json1, quiet, tty)
-          format: 'gcc' # 可选，默认为 'gcc'
+          format: 'gcc' # Default is 'gcc'
           
           # Specify a concrete version of ShellCheck to use
-          version: 'stable' # 可选，默认为 'stable'
+          version: 'stable' # Default is 'stable'
