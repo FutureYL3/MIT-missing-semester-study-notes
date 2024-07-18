@@ -10,37 +10,29 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: ShellCheck
-        # You may pin to the exact commit or the version.
-        # uses: ludeeus/action-shellcheck@00cae500b08a931fb5698e11e79bfbd38e612a38
+      - name: Run ShellCheck
         uses: ludeeus/action-shellcheck@2.0.0
         with:
           # A space separated list of additional filenames to check
-          additional_files: '' # optional, default is ''
+          additional_files: 'scripts/*.sh' # 修改为你想检查的文件路径模式
           
           # Paths to ignore when running ShellCheck
-          ignore: '' # optional, default is ''
-          
-          # Paths to ignore when running ShellCheck
-          ignore_paths: '' # optional, default is ''
+          ignore_paths: '' # 可选，默认为空
           
           # Names to ignore when running ShellCheck
-          ignore_names: '' # optional, default is ''
+          ignore_names: '' # 可选，默认为空
           
           # Minimum severity of errors to consider. Options: [error, warning, info, style]
-          severity: 'style' # optional, default is 'style'
+          severity: 'style' # 可选，默认为 'style'
           
           # Run shellcheck on _all_ files at once, instead of one at a time
-          check_together: 'false' # optional, default is 'false'
+          check_together: 'false' # 可选，默认为 'false'
           
           # Directory to be searched for files. Defaults to .
-          scandir: '.' # optional, default is '.'
-          
-          # Set to true to skip using problem-matcher
-          disable_matcher: 'false' # optional, default is 'false'
+          scandir: '.' # 可选，默认为 '.'
           
           # Output format (checkstyle, diff, gcc, json, json1, quiet, tty)
-          format: 'gcc' # optional, default is 'gcc'
+          format: 'gcc' # 可选，默认为 'gcc'
           
           # Specify a concrete version of ShellCheck to use
-          version: 'stable' # optional, default is 'stable'
+          version: 'stable' # 可选，默认为 'stable'
