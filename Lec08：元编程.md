@@ -1,3 +1,8 @@
+---
+layout: default
+title: 元编程
+---
+
 # Lec08：元编程
 
 本 Lec 的主要内容：

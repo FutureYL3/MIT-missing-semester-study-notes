@@ -1,3 +1,8 @@
+---
+layout: default
+title: 调试及性能分析
+---
+
 # Lec07：调试及性能分析
 
 本 Lec 的主要内容：

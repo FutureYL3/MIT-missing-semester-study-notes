@@ -1,3 +1,8 @@
+---
+layout: default
+title: Shell 工具和脚本
+---
+
 # Lec02：Shell 工具和脚本
 
 本 Lec 的主要内容：

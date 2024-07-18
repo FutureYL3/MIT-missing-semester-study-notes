@@ -1,3 +1,8 @@
+---
+layout: default
+title: The Shell
+---
+
 # Lec01：The Shell
 
 本 Lec 主要内容：

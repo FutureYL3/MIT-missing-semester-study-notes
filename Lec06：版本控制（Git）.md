@@ -1,3 +1,8 @@
+---
+layout: default
+title: 版本控制（Git）
+---
+
 # Lec06：版本控制（Git）
 
 本 Lec 的主要内容：

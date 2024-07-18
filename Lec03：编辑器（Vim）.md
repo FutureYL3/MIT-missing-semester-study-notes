@@ -1,3 +1,8 @@
+---
+layout: default
+title: 编辑器（Vim）
+---
+
 # Lec03：编辑器（Vim）
 
 本 Lec 的主要内容：

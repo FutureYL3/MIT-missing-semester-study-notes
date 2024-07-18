@@ -1,3 +1,8 @@
+---
+layout: default
+title: 命令行环境
+---
+
 # Lec05：命令行环境
 
 本 Lec 主要学习：
